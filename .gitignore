@@ -1,0 +1,15 @@
+# Sensitive vault files - never commit these
+*.enc
+*.bin
+*.tmp
+secure_vault.enc
+passwords.enc
+salt.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
